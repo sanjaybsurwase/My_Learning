@@ -1,0 +1,37 @@
+Commands
+pipes and regular experssions.
+usergroup mgmnt
+permissions
+scheduling
+processmgmt
+filesystem
+networkmgmt
+Memorymgmt
+LVM
+RAID
+bootlevel issues
+kernel mgmt
+log mgmmnt
+package mgmnt
+SSH
+LDAP
+Backup Rsync and scp
+firewall selinux
+KVM
+scripting
+NFS
+FTP
+HTTP
+proxy
+CIFS
+DNS
+DHCP
+iscsi
+ngnix
+Image builder
+Zabix
+mail server
+HAproxy
+cache server 
+foreman
+VPN 
