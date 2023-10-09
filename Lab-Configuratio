@@ -1,0 +1,19 @@
+192.168.56.101 server.cnl.com server
+192.168.56.102 node1.cnl.com node1
+192.168.56.103 node2.cnl.com node2
+192.168.56.104 node3.cnl.com node3
+
+SSH-config
+
+vim /etc/ssh/sshd_config
+
+# To disable tunneled clear text passwords, change to no here!
+PasswordAuthentication yes --> this line should be un commented
+#PermitEmptyPasswords no
+#PasswordAuthentication no --> this line should be commented
+
+In all 3 machines now you restart sshd service
+
+systemctl restart sshd
+
+ansadmin ALL=(ALL)       NOPASSWD:       ALL
